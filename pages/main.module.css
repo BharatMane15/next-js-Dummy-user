@@ -1,0 +1,57 @@
+.header {
+  color: red;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.container {
+  background-color: white;
+  height: 90vh;
+  width: 100%;
+}
+.firstDiv {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secondDiv {
+  width: 100%;
+  height: 80%;
+  overflow-y: scroll;
+}
+.input {
+  align-items: center;
+  width: 100%;
+  height: 7vh;
+  font-size: 2rem;
+  text-align: center;
+  border: 2px solid aqua;
+  border-radius: 3vh;
+}
+.listWrapper {
+  display: flex;
+  gap: 2vh;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.list {
+  background-color: silver;
+  width: 25%;
+  height: 12vh;
+  border-radius: 0.7vh;
+  display: flex;
+  gap: 2%;
+  cursor: pointer;
+}
+.midDiv {
+  background-color: black;
+  width: 100%;
+  height: 10vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  display: flex;
+  align-items: center;
+}
